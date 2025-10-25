@@ -38,23 +38,18 @@ The numbers increase dynamically when the page loads, providing a smooth and mod
    git clone https://github.com/iam269/Count-Up-Animation.git
 Open the project folder:
 
-bash
-Copy code
+
 cd Count-Up-Animation
 Run the project:
 Simply open the index.html file in your browser.
 
 Or use a local development server (optional):
 
-bash
-Copy code
 npx live-server
 Customize the counters:
 
 Open index.html and modify the values in the data-target attributes:
 
-html
-Copy code
 <div class="counter" data-target="500">0</div>
 Adjust animation speed or timing inside script.js.
 
@@ -66,13 +61,9 @@ The JavaScript script gradually increments the displayed value from 0 to that ta
 
 Example:
 
-html
-Copy code
 <div class="counter" data-target="1200">0</div>
 JavaScript logic snippet:
 
-javascript
-Copy code
 const counters = document.querySelectorAll('.counter');
 
 counters.forEach(counter => {
@@ -103,8 +94,6 @@ Speed and timing → adjust in JavaScript
 Fonts, colors, layout → edit in CSS
 
 📁 Project Structure
-mathematica
-Copy code
 Count-Up-Animation/
 ├── index.html
 ├── style.css
